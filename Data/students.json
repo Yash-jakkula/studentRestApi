@@ -1,0 +1,26 @@
+[
+    {
+        "Name":"Yashwanth Jakkula",
+        "Id":"21eg105h21",
+        "Email":"21eg105h21@anurag.edu.in",
+        "Section":"H",
+        "Branch":"CSE",
+        "Year":"3",
+        "liked":[],
+        "Voted":[],
+        "commented":[]
+    },
+    {
+        "Name":"Dheeraj Lellala",
+        "Id":"21eg105h36",
+        "Email":"21eg105h36@anurag.edu.in",
+        "Section":"H",
+        "Branch":"CSE",
+        "Year":"3",
+        "liked":[],
+        "commented":[],
+        "Voted":[]
+
+    }
+
+]

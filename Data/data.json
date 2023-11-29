@@ -1,0 +1,174 @@
+[
+    {
+      "_id": "6563af07b0d86ce5062119ab",
+      "title": "CSE AND CO",
+      "faculty": [
+        {
+          "facultyId": "ds1",
+          "facultyName":"Dr.sridevi",
+          "experience": "since 2007",
+          "profile": "f",
+          "specialization": "DSA",
+          "basicInfo": "Graduated from OU has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119ac"
+        },
+        {
+          "facultyName": "Dr. Reddy",
+          "facultyId": "ds2",
+          "experience": "since 2015",
+          "profile": "m",
+          "specialization": "DSA",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119ad"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "6563af07b0d86ce5062119ae",
+      "title": "Electronics and communication Engineering",
+      "faculty": [
+        {
+          "facultyName": "Dr. Swaraja Lakshmi",
+          "facultyId": "coa1",
+          "experience": "since 2011",
+          "profile": "f",
+          "specialization": "COA",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119af"
+        },
+        {
+          "facultyName": "Dr. Rao",
+          "facultyId": "coa2",
+          "experience": "since 2016",
+          "profile": "m",
+          "specialization": "COA",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b0"
+        },
+        {
+          "facultyName": "yashwanth",
+          "facultyId": "coa3",
+          "experience": "since 2019",
+          "profile": "m",
+          "specialization": "COA",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b1"
+        },
+        {
+          "facultyName": "anil",
+          "facultyId": "coa4",
+          "experience": "since 1999",
+          "profile": "m",
+          "specialization": "COA",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b2"
+        },
+        {
+          "facultyName": "joseph",
+          "facultyId": "coa5",
+          "experience": "since 2000",
+          "profile": "m",
+          "specialization": "COA",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b3"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "6563af07b0d86ce5062119b4",
+      "title": "Mechanical Engineering",
+      "faculty": [
+        {
+          "facultyName": "Dr. Bhagya Rekha",
+          "facultyId": "dbms1",
+          "experience": "since 2012",
+          "profile": "f",
+          "specialization": "DBMS",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b5"
+        },
+        {
+          "facultyName": "Dr. Kumar",
+          "facultyId": "dbms2",
+          "experience": "since 2017",
+          "profile": "m",
+          "specialization": "DBMS",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b6"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "6563af07b0d86ce5062119b7",
+      "title": "Civil Engineering",
+      "faculty": [
+        {
+          "facultyName": "surender",
+          "facultyId": "java1",
+          "experience": "since 2000",
+          "profile": "m",
+          "specialization": "DBMS",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b8"
+        },
+        {
+          "facultyName": "anil kumar",
+          "facultyId": "java2",
+          "experience": "since 2012",
+          "profile": "m",
+          "specialization": "DBMS",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119b9"
+        },
+        {
+          "facultyName": "sirisha",
+          "facultyId": "java3",
+          "experience": "since 2000",
+          "profile": "f",
+          "specialization": "DBMS",
+          "basicInfo": "Graduated from OU, has a pg degree in computer organisation and architecture. Holder of a national award for the best design of a new architecture of a CPU.",
+          "likes": [],
+          "comments": [],
+          "votes": [],
+          "_id": "6563af07b0d86ce5062119ba"
+        }
+      ],
+      "__v": 0
+    }
+  ]

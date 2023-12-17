@@ -1,4 +1,4 @@
-const {getFaculty,insertFaculty,updateLikes, facDelete} = require('../Controllers/facultyController');
+const {getFaculty,insertFaculty,updateLikes, facDelete, updateLikesFaculty} = require('../Controllers/facultyController');
 
 
 const Express = require('express');
@@ -9,7 +9,7 @@ facultyRouter.get('/getFaculty',getFaculty);
 
 facultyRouter.post('/insertFaculty',insertFaculty);
 
-facultyRouter.put('/updateFaculty/:id',updateLikes);
+facultyRouter.put('/updateFacultyLikes/:facultyId/:sId/:sec/:year',updateLikesFaculty);
 
 facultyRouter.delete('/deleteFaculty',facDelete);
 

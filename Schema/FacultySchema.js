@@ -6,9 +6,9 @@ const faculty = [{
     profile:String,
     specialization:String,
     basicInfo:String,
-    likes:Array,
-    comments:Array,
-    votes:Array}]
+    likes:[{}],
+    comments:[{}],
+    votes:[{}]}]
 
 const facultySchema = new mongoose.Schema([{
     title:String,

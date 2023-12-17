@@ -28,23 +28,29 @@ async function insertFaculty(req,res){
     }
 }
 
-async function updateLikes(req,res){
+async function updateLikesFaculty(req,res){
     try{
-        const {id} = await req.params;
+        const {facultyId,sId,sec,year} = await req.params;
+        console.log(facultyId,sId,sec,year)
         const data = await facultyInfo.find()
-        let facultyId = "";
-
+        let value = true;
         data.find((item) => {(item.faculty.find((fac)=>
             {
-                const fId = ":"+fac.facultyId;
-                if(fId == id){
-                    facultyId = fac.facultyId;
+                if(fac.facultyId == facultyId && fac.likes.find((item) => item.sId == sId)){
+                    value = false;
+                }
+                else if(fac.facultyId == facultyId && fac.likes.find((item) => item.sId != sId)){
+                    value = true;
                 }
             }
             ))})
-       await facultyInfo.updateOne({"faculty.facultyId":facultyId},{$push:{faculty:{"facultyName" : "Dr.Sridevi"}}});
-
-        res.status(201).json({message:'updated '});
+if(value){           
+       await facultyInfo.updateOne({"faculty.facultyId":facultyId},{$push:{"faculty.$.likes":{sId:sId,section:sec,year:year}}});
+       res.status(201).json({message:'updated '});
+}
+else{
+    res.status(404).json({message:'user not found'});
+}
     }
     catch(err){
         res.status(500).json(err);
@@ -61,4 +67,4 @@ async function facDelete(req,res){
     }
 }
 
-module.exports = {getFaculty , insertFaculty, updateLikes, facDelete};
+module.exports = {getFaculty , insertFaculty, updateLikesFaculty, facDelete};

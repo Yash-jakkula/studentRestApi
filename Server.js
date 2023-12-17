@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://21eg105h21:yash7640@cluster0.iz8qnim.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://username:password@cluster0.iz8qnim.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     App.listen(3000, () => {
